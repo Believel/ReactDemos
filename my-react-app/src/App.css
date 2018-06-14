@@ -21,6 +21,19 @@
 .App-intro {
   font-size: large;
 }
+.wrapper {
+  text-align: center;
+}
+.title {
+  color: blue;
+}
+.card {
+  margin: 0 auto;
+  height: 200px;
+  width: 300px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
