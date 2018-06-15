@@ -52,6 +52,7 @@
     cursor: pointer;
 } 
 .comment {
+    position: relative;
     display: flex;
     border-bottom: 1px solid #f1f1f1;
     margin-bottom: 10px;
@@ -67,4 +68,23 @@
 }
 .comment p {
     margin: 0;
+}
+.comment-createdtime {
+    padding-right: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    font-size: 12px;
+}
+.comment-delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: transparent;
+    font-size: 12px;
+    cursor: pointer;
+}
+.comment:hover .comment-delete {
+    color: #00a3cf;
 }

@@ -11,7 +11,7 @@ import './App.css';
 // import List from './list/List'
 
 // 引入评论组件
-// import CommentIndex from './comment/CommentIndex';
+import CommentIndex from './comment/CommentIndex';
 
 // 引入体验挂载阶段的生命周期
 // import Header from './header/Header';
@@ -24,7 +24,7 @@ import './App.css';
 
 
 // 组件中内嵌元素 this.props.children
-import Card from './card/Card';
+// import Card from './card/Card';
 
 // const users = [
 //   {username: 'Jerry', age: 21, gender: 'male'},
@@ -50,7 +50,7 @@ class App extends Component {
 
 
 
-        {/* <CommentIndex/> */}
+        <CommentIndex/>
 
 
 
@@ -61,10 +61,10 @@ class App extends Component {
 
         {/* <AutoFocusInput/> */}
 
-        <Card>
+        {/* <Card>
           <h2>React学习</h2>
           <div>开源、免费、专业、简单</div>
-        </Card>
+        </Card> */}
       </div>
     )
   }
