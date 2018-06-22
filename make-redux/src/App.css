@@ -26,3 +26,17 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+button {
+  padding: 0 20px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 4px;
+  background-color: aquamarine;
+  border-width: 0;
+  margin-right: 5px;
+}
+button:focus {
+  outline: 0;
+  border: 0;
+}
