@@ -19,6 +19,7 @@ class Comment extends Component {
             5000
         )
     }
+
     // 在组件销毁的时候清除定时器
     componentWillUnmount() {
         clearInterval(this._timer)

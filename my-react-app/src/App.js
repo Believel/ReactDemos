@@ -11,7 +11,7 @@ import './App.css';
 // import List from './list/List'
 
 // 引入评论组件
-import CommentIndex from './comment/CommentIndex';
+// import CommentIndex from './comment/CommentIndex';
 
 // 引入体验挂载阶段的生命周期
 // import Header from './header/Header';
@@ -25,6 +25,9 @@ import CommentIndex from './comment/CommentIndex';
 
 // 组件中内嵌元素 this.props.children
 // import Card from './card/Card';
+
+// 路由练习
+import Router from './router';
 
 // const users = [
 //   {username: 'Jerry', age: 21, gender: 'male'},
@@ -50,7 +53,7 @@ class App extends Component {
 
 
 
-        <CommentIndex/>
+        {/* <CommentIndex/> */}
 
 
 
@@ -65,6 +68,8 @@ class App extends Component {
           <h2>React学习</h2>
           <div>开源、免费、专业、简单</div>
         </Card> */}
+
+        <Router/>
       </div>
     )
   }

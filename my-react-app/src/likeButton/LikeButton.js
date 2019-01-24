@@ -7,6 +7,7 @@ class LikeButton extends Component {
         unlikeText: '取消'
     }
     constructor() {
+        // 当作函数使用，代表父类的构造函数
         super()
         this.state = {
             isLiked : false,
