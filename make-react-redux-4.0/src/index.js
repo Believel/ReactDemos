@@ -4,22 +4,9 @@ import {createStore} from 'redux';
 import {Provider} from 'react-redux';
 import './index.css';
 import App from './App';
+import {store} from './store/createStore';
 import * as serviceWorker from './serviceWorker';
 
-
-// 定义一个表示主题色的状态
-const themeReducer = (state, action) => {
-    if (!state) return {
-        themeColor: 'red'
-    }
-    switch (action.type) {
-        case 'CHANGE_COLOR': 
-            return {...state, themeColor: action.themeColor}
-        default:
-        return state
-    }
-}
-const store = createStore(themeReducer)
 ReactDOM.render(
     <Provider store={store}>
         <App />

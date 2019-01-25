@@ -8,4 +8,4 @@
 # 目录make-react-redux-3.0
 > 真正的体会redux,react-redux实现数据状态管理
 # 目录make-react-redux-4.0
-> 在上次3.0的基础上，利用插件`redux-actions`进一步抽离reducer,action等。
+> 在上次3.0的基础上，利用插件`redux-actions`进一步抽离reducer,action等,并且使用`redux-thunk`中间件处理action的异步操作

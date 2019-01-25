@@ -3,7 +3,7 @@ import Header from '../component/Header';
 
 const mapStateToProps = (state, ownProps) => {
     return {
-        themeColor: state.themeColor
+        themeColor: state.commonState.themeColor
     }
 }
 
