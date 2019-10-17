@@ -142,7 +142,7 @@ const mapDispatchToProps = {
 
 export default connect(mapStateToProps, mapDispatchToProps)(Content);
 ```
-4. <Provider>组件
+4. Provider组件
 > 提供state
 ```js
 import React from 'react';

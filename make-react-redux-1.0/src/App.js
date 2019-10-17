@@ -36,7 +36,7 @@ const themeReducer = (state, action) => {
 const store = createStore(themeReducer)
 class App extends Component {
     // 生产者消费者模式
-    // 通过静态属性childCOntextTypes声明提供给子组件的Context对象的属性，并实现一个实例getChildContext方法，返回一个代表Context的纯对象(plain object)
+    // 通过静态属性childContextTypes声明提供给子组件的Context对象的属性，并实现一个实例getChildContext方法，返回一个代表Context的纯对象(plain object)
     static childContextTypes = {
         store: PropTypes.object
     }
